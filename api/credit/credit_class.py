@@ -2,7 +2,7 @@ import pickle
 
 class Credit( object ):
     def __init__( self ):
-        self.home_path = '/home/jeffsmedines/repos/datarisk_credit/'
+        self.home_path = ''
         self.idade_standard = pickle.load( open( self.home_path + 'parameter/idade_standard.pkl', 'rb' ) )
         self.salario_por_dependentes_min_max = pickle.load( open( self.home_path + 
         'parameter/salario_por_dependentes_min_max.pkl', 'rb' ) )

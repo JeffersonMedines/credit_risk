@@ -4,7 +4,7 @@ from flask               import Flask, request, Response
 from credit.credit_class import Credit
 
 # Load Model
-model = pickle.load( open( '/home/jeffsmedines/repos/datarisk_credit/model/model_credit.pkl', 'rb' ) )
+model = pickle.load( open( 'model/model_credit.pkl', 'rb' ) )
 
 # Initialize API
 app = Flask( __name__ )
