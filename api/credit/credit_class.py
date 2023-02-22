@@ -1,4 +1,5 @@
 import pickle
+from xgboost import XGBClassifier
 
 class Credit( object ):
     def __init__( self ):

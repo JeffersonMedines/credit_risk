@@ -2,6 +2,7 @@ import pickle
 import pandas as pd
 from flask               import Flask, request, Response
 from credit.credit_class import Credit
+from xgboost             import XGBClassifier
 
 # Load Model
 model = pickle.load( open( 'model/model_credit.pkl', 'rb' ) )
