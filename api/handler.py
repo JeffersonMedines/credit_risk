@@ -1,3 +1,4 @@
+import os
 import pickle
 import pandas as pd
 from flask               import Flask, request, Response
@@ -42,4 +43,5 @@ def credit_predict():
         return Response( '{}', status=200, mimetype='application/json' )
 
 if __name__ == '__main__':
-    app.run( '0.0.0.0' )
+    porti = os.environ.get( 'PORT', 5000 )
+    app.run( host='0.0.0.0', port=porti )
