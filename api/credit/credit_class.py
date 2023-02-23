@@ -20,7 +20,7 @@ class Credit( object ):
         df1['salario_mensal'].fillna( df1.loc[df1['salario_mensal'] < 300000, 'salario_mensal'].mean(), inplace=True )
 
         ### 1.5.2 Número de Dependentes
-        df1['numero_de_dependentes'].fillna( 0, inplace=True )
+        df1['numero_de_dependentes'].fillna( df1['numero_de_dependentes'].median(), inplace=True )
 
         ### 1.5.3 Idade
         df1['idade'] = df1['idade'].replace( 0, round( df1['idade'].mean() ) )
