@@ -1,5 +1,5 @@
 import pickle
-from xgboost import XGBClassifier
+import numpy as np
 
 class Credit( object ):
     def __init__( self ):
@@ -13,6 +13,9 @@ class Credit( object ):
         self.idade_x_salario_robust = pickle.load( open( self.home_path + 'parameter/idade_x_salario_robust.pkl', 'rb' ) )
         
     def data_cleaning( self, df1 ):
+        ### Replacing NA
+        df1 = df1.replace( 'N/A', np.NaN )
+
         ### 1.5.1 Salário Mensal
         df1['salario_mensal'].fillna( df1.loc[df1['salario_mensal'] < 300000, 'salario_mensal'].mean(), inplace=True )
 
