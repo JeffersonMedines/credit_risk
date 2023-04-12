@@ -148,16 +148,20 @@
 
 <h3> Total Performance </h3>
 
-<p>  </p>
+<p> Levando em conta as premissas de negócio para se calcular o impacto financeiro do modelo, para os quase 40 mil clientes do conjunto de dados de validação, será gerado um retorno financeiro de R$8.960.750 para a empresa. </p>
 
+![resultado financeiro](https://user-images.githubusercontent.com/93053350/231520724-d0b3e94b-f7c0-4aeb-aa77-032db683d9f0.png)
 
 <h1>:hammer_and_wrench: Deploy do Modelo em Produção </h1>
 
-<p>   </p>
+<p> Foi construída a classe do modelo com todos os métodos e transformações utilizados no decorrer do projeto em conjunto com uma API. As duas aplicações foram colocadas em produção na cloud Render e estão acessíveis para requisições de qualquer computador e em qualquer horário. Na imagem a baixo, demonstro uma requisição bem sucedida com o retorno das previsões: </p>
 
-<p>  </p>
-
+![requisição](https://user-images.githubusercontent.com/93053350/231522117-00001f8e-bbaa-4789-8e91-2e4fa2e59696.png)
 
 <h1>:pushpin: Próximos Passos </h1>
 
-<p>  </p>
+<p> Para próximos ciclos do CRISP-DM, coloco dois pontos para se implementar no projeto:
+
+1. Melhorar a performance da métrica precission para que se iguale a métrica de recall. Isso consequentemente irá aumentar o retorno finaceiro já que a precission nos indica o quanto a empresa está emprestando dinheiro para bons pagadores.
+
+2. A fim de implementar a solução desenvolvida o mais próxima possível do tomador de decisão que irá consumir a solução, proponho desenvolver um script em VBA no Excel, que será integrado a um botão na planilha, que ao clicar no botão, o script irá automaticamente coletar os dados da planilha, fazer a requisição na API, e retornar as previsões como uma nova coluna na própria planilha, facilitando e tornando muito prático o acesso as previsões. </p>
