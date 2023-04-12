@@ -39,50 +39,57 @@
 
 <h1>:computer: Planejamento da Solução </h1>
 
-<h3> 1.0 Input </h3>
+<h3> Input </h3>
 <p> 
 
-1.1 Problema de Negócio: Classificar quais pedidos de crédito serão inadimplentes e quais serão honrados.
+1. Problema de Negócio: Classificar quais pedidos de crédito serão inadimplentes e quais serão honrados.
     
-1.2 Conjunto de Dados: Clientes que solicitaram crédito e as suas features nas colunas. A granularidade dos dados é 1 cliente para cada linha do dataset. </p>
+2. Conjunto de Dados: Clientes que solicitaram crédito e as suas features nas colunas. A granularidade dos dados é 1 cliente para cada linha do dataset. </p>
     
-<h3> 2.0 Output </h3>
+<h3> Output </h3>
 
-<p> 2.1 Uma nova coluna no dataset com a classificação de inadimplência do cliente.
+<p> 
 
-2.2 Construção de uma API para fazer o deploy do modelo em produção e possibilitar que ele seja acessado de qualquer computador e horário. </p>
+1. Uma nova coluna no dataset com a classificação de inadimplência do cliente.
 
-<h3> 3.0 Tasks </h3>
+2. Construção de uma API para fazer o deploy do modelo em produção e possibilitar que ele seja acessado de qualquer computador e horário. </p>
 
-<p> 3.1 Entendimento do problema de negócio.
+<h3> Tasks </h3>
 
-3.2 Descrição dos dados.
+<p>
 
-3.3 Construir o mindmap de hipóteses.
+1. Entendimento do problema de negócio.
 
-3.4 Criar as hipóteses e realizar o feature engineering.
+2. Descrição dos dados.
 
-3.5 Responder as hipóteses de negócio e realizar a EDA.
+3. Construir o mindmap de hipóteses.
 
-3.6 Prepração dos dados.
+4. Criar as hipóteses e realizar o feature engineering.
 
-3.7 Seleção de features.
+5. Responder as hipóteses de negócio e realizar a EDA.
 
-3.8 Aplicação dos modelos de ML.
+6. Prepração dos dados.
 
-3.9 Hyperparameter fine tuning.
+7. Seleção de features.
 
-3.10 Tradução e interpretação do erro para negócios.
+8. Aplicação dos modelos de ML.
 
-3.11 Construir a classe credit.
+9. Hyperparameter fine tuning.
 
-3.12 Construir a API.
+10. Tradução e interpretação do erro para negócios.
 
-3.13 Subir o modelo e a API na cloud. </p>
+11. Construir a classe credit.
 
-<h3> 4.0 Metodologia </h3>
+12. Construir a API.
 
-<p> 4.1 Este projeto será desenvolvido com base no Processo Padrão Inter-Indústrias para Mineração de Dados (CRISP-DM). O intuito desa metodologia é que o cientista passe inicialmente por todos os passos do projeto da forma mais rápida possível. Mas como isso pode ajudar no desenvolvimento do projeto e na agregação de valor para a empresa? Ao passar por todas as etapas do projeto de maneira rápida já é possível identificar qualquer problema que impeça o projeto de ser desenvolvido, reduzindo custos no caso de construir um projeto excelente já na primeira entrega o que demandaria mais tempo e investimento para no final descobrir o problema que impede o desenvolvimento do projeto. Ao desenvolver uma solução inicial rápida, a empresa já está sendo beneficiada financeiramente ainda que pouco nessa primeira versão do projeto em quanto uma solução mais robusta é construída em uma próxima iteração do CRISP-DM. </p>
+13. Subir o modelo e a API na cloud. </p>
+
+<h3> Metodologia </h3>
+
+<p>
+
+1. Este projeto será desenvolvido com base no Processo Padrão Inter-Indústrias para Mineração de Dados (CRISP-DM). O intuito desa metodologia é que o cientista passe inicialmente por todos os passos do projeto da forma mais rápida possível. Mas como isso pode ajudar no desenvolvimento do projeto e na agregação de valor para a empresa? Ao passar por todas as etapas do projeto de maneira rápida já é possível identificar qualquer problema que impeça o projeto de ser desenvolvido, reduzindo custos no caso de construir um projeto excelente já na primeira entrega o que demandaria mais tempo e investimento para no final descobrir o problema que impede o desenvolvimento do projeto. Ao desenvolver uma solução inicial rápida, a empresa já está sendo beneficiada financeiramente ainda que pouco nessa primeira versão do projeto em quanto uma solução mais robusta é construída em uma próxima iteração do CRISP-DM. 
+</p>
 
 ![crisp dm](https://user-images.githubusercontent.com/93053350/208129563-6f933191-f522-4603-bf98-06b3f0db9937.jpg)
 
