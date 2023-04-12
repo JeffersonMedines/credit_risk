@@ -9,21 +9,21 @@
 
 <h3>
 
-• [Problemas de Negócio](https://github.com/JeffersonMedines/health_insurance_cross_sell#mag_right-problemas-de-neg%C3%B3cio-)
+• [Problemas de Negócio](https://github.com/JeffersonMedines/credit_risk#mag_right-problema-de-neg%C3%B3cio-)
 
-• [Premissas do Negócio](https://github.com/JeffersonMedines/health_insurance_cross_sell#gear-premissas-do-neg%C3%B3cio-)
+• [Premissas do Negócio](https://github.com/JeffersonMedines/credit_risk#gear-premissas-do-neg%C3%B3cio-)
 
-• [Planejamento da Solução](https://github.com/JeffersonMedines/health_insurance_cross_sell#computer-planejamento-da-solu%C3%A7%C3%A3o-)
+• [Planejamento da Solução](https://github.com/JeffersonMedines/credit_risk#computer-planejamento-da-solu%C3%A7%C3%A3o-)
 
-• [Top 3 Insights de Negócio](https://github.com/JeffersonMedines/health_insurance_cross_sell#bar_chart-top-3-insights-de-neg%C3%B3cio)
+• [Top 3 Insights de Negócio](https://github.com/JeffersonMedines/credit_risk#bar_chart-top-3-insights-de-neg%C3%B3cio)
 
-• [Machine Learning e Métricas de Performance](https://github.com/JeffersonMedines/health_insurance_cross_sell#mechanical_arm-machine-learning-e-m%C3%A9tricas-de-performance-)
+• [Machine Learning e Métricas de Performance](https://github.com/JeffersonMedines/credit_risk#mechanical_arm-machine-learning-e-m%C3%A9tricas-de-performance-)
 
-• [Resultados Financeiros para o Negócio](https://github.com/JeffersonMedines/health_insurance_cross_sell#chart_with_upwards_trend-resultados-financeiros-para-o-neg%C3%B3cio-)
+• [Resultados Financeiros para o Negócio](https://github.com/JeffersonMedines/credit_risk#chart_with_upwards_trend-resultados-financeiros-para-o-neg%C3%B3cio-)
 
-• [Deploy do Modelo em Produção](https://github.com/JeffersonMedines/health_insurance_cross_sell#hammer_and_wrench-deploy-do-modelo-em-produ%C3%A7%C3%A3o-)
+• [Deploy do Modelo em Produção](https://github.com/JeffersonMedines/credit_risk#hammer_and_wrench-deploy-do-modelo-em-produ%C3%A7%C3%A3o-)
 
-• [Próximos Passos](https://github.com/JeffersonMedines/health_insurance_cross_sell#pushpin-pr%C3%B3ximos-passos-)
+• [Próximos Passos](https://github.com/JeffersonMedines/credit_risk#pushpin-pr%C3%B3ximos-passos-)
  
  </h3>
 
